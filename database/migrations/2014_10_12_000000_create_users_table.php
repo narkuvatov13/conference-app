@@ -18,11 +18,11 @@ return new class extends Migration
             $table->string('phone');
             $table->string('name');
             $table->text('user_img')->nullable();
-            $table->string('dogum_tarih');
-            $table->string('unvan');
-            $table->string('fakulte');
-            $table->string('alani');
-            $table->string('universitesi');
+            $table->string('dogum_tarih')->nullable();
+            $table->string('unvan')->nullable();
+            $table->string('fakulte')->nullable();
+            $table->string('alani')->nullable();
+            $table->string('universitesi')->nullable();
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');

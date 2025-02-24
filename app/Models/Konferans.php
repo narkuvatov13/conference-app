@@ -9,20 +9,23 @@ class Konferans extends Model
 {
     use HasFactory;
 
-    protected $guarded=[];
+    protected $guarded = [];
 
-    public function users(){
+    public function users()
+    {
         return $this->belongsTo(User::class);
     }
-                        //user tablosuna bire bir iliski
-    public function user(){
-        return $this->hasOne(User::class,'konferans_id','id')->withDefault(
-            ['name'=>'Misafir Kullanici']
+    //user tablosuna bire bir iliski
+    public function user()
+    {
+        return $this->hasOne(User::class, 'konferans_id', 'id')->withDefault(
+            ['name' => 'Misafir Kullanici']
         );
     }
 
-    public function hakemYoneticUsers(){
-        return $this->belongsToMany(User::class,'hakem_yonetici_ata','konferans_id','user_id');
+    public function hakemYoneticUsers()
+    {
+        return $this->belongsToMany(User::class, 'hakem_yonetici_ata', 'konferans_id', 'user_id');
     }
 
     public function getPostImageAttribute($value)
@@ -33,13 +36,15 @@ class Konferans extends Model
         return asset('storage/' . $value);
     }
 
-    public function getAy($value){
-             $tarihAy = explode(' ',$value);
-             return $tarihAy[1];
+    public function getAy($value)
+    {
+        $tarihAy = explode(' ', $value);
+        // dd($tarihAy);
+        return $tarihAy[1];
     }
-    public function getGun($value){
-        $tarihGun = explode(' ',$value);
+    public function getGun($value)
+    {
+        $tarihGun = explode(' ', $value);
         return $tarihGun[0];
     }
-
 }
