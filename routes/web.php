@@ -149,7 +149,7 @@ Route::group(['middleware' => 'auth'], function () {
         Route::get('/yazar/listele/index', [YazilarimController::class, 'index'])->name('yazar_admin.index');
         Route::get('/yazar/basvuruformu/create', [YazilarimController::class, 'create'])->name('yazar_admin.create');
         Route::post('/yazar/basvuruformu/store', [YazilarimController::class, 'store'])->name('yazar_admin.store');
-        Route::get('/konferans/basvuru/{id}/show', [BasvuruController::class, 'show'])->name('basvuru.show');
+        Route::get('/konferans/basvuru/{id}/show', [BasvuruController::class, 'show'])->middleware('auth')->name('basvuru.show');
         Route::get('/yazar/basvuruformu/{id}/edit', [YazilarimController::class, 'edit'])->name('yazar_admin_basvuru.edit');
         Route::patch('/yazar/basvuruformu/{id}/update', [YazilarimController::class, 'update'])->name('yazar_admin_basvuru.update');
         Route::delete('/yazar/basvuruformu/{id}/destroy', [YazilarimController::class, 'destroy'])->name('yazar_admin_basvuru.destroy');

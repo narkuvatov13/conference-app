@@ -69,8 +69,8 @@
                                                                 <option selected="">Seçiniz...</option>
 
                                                                 @foreach($users as $user)
-                                                                    <option value="{{$user->id}}">{{ $user->name}}</option>
-                                                                    @if($user->role_id == 2 && $user->alani == $konferans->konferans_kategori)
+                                                                    {{-- <option value="{{$user->id}}">{{ $user->name}}</option> --}}
+                                                                    @if($user->role_id == 2)
                                                                         <option value="{{$user->id}}">{{$user->name}}</option>
                                                                     @endif
                                                                 @endforeach

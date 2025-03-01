@@ -15,10 +15,7 @@ class BasvuruController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
-    {
-
-    }
+    public function index() {}
 
     /**
      * Show the form for creating a new resource.
@@ -50,19 +47,18 @@ class BasvuruController extends Controller
     public function show($id)
     {
         $konferans = Konferans::findOrFail($id);
-        $yonetici_admin='yok';
+        $yonetici_admin = 'yok';
         $users = User::all();
-        foreach($users as $user){
-            if($konferans->id == $user->konferans_id){
-                $yonetici_admin=$user;
+        foreach ($users as $user) {
+            if ($konferans->id == $user->konferans_id) {
+                $yonetici_admin = $user;
             }
         }
-        if($yonetici_admin == 'yok'){
-            session()->flash('konferans-starting','Konferans başvuruları daha başlamadı');
-            return view('konferans_show',compact('konferans'));
+        if ($yonetici_admin == 'yok') {
+            session()->flash('konferans-starting', 'Konferans başvuruları daha başlamadı');
+            return view('konferans_show', compact('konferans'));
         }
-        //return dd($yonetici);
-        return view('yazar_admin.yazilarim.olustur',compact('yonetici_admin'));
+        return view('yazar_admin.yazilarim.olustur', compact('yonetici_admin'));
     }
 
     /**
@@ -71,10 +67,7 @@ class BasvuruController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
-    {
-
-    }
+    public function edit($id) {}
 
     /**
      * Update the specified resource in storage.

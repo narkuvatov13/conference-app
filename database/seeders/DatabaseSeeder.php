@@ -20,7 +20,7 @@ class DatabaseSeeder extends Seeder
         $this->call([
             RoleSeeder::class,
         ]);
-        // User::factory(5)->create();
+            // User::factory(5)->create();
 
         // User::factory(2)->create()->each(function ($user) {
         //     $user->konferanslar()->save(Konferans::factory()->make());
