@@ -23,7 +23,7 @@ class KonferansFactory extends Factory
             'konferans_icerik' => $this->faker->paragraph(),
             'konferans_adres' => $this->faker->sentence(),
             'konferans_kategori' => $this->faker->sentence(),
-            'konferans_turu' => $this->faker->sentence(),
+            'konferans_turu' => ['Uluslararası', 'Politika', 'Isletme', 'Egitim', 'Sanat ve Tasarim', 'Teknoloji'][rand(0, 5)],
             'konferans_email' => $this->faker->sentence(),
             'konferans_tel' => $this->faker->randomNumber(),
             'konferans_date' => $this->faker->date(),

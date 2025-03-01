@@ -30,8 +30,8 @@ return new class extends Migration
             $table->timestamps();
             $table->integer('silindiMi')->default(0)->nullable();
             $table->integer('atandiMi')->default(0)->nullable();
-            //$table->foreignId('konferans_id')->constrained();
-
+            $table->foreignId('konferans_id')->default(0)->onDelete('cascade');
+            // $table->foreignId('role_id')->default(0)->onDelete('cascade');
         });
     }
 

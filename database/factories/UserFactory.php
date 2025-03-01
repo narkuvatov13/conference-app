@@ -25,7 +25,7 @@ class UserFactory extends Factory
             'dogum_tarih' => $this->faker->date(),
             'unvan' => 'Dr',
             'fakulte' => 'Hukuk',
-            'alani'     => 'Uluslararası',
+            'alani'     => ['Uluslararası', 'Politika', 'Isletme', 'Egitim', 'Sanat ve Tasarim', 'Teknoloji'][rand(0, 5)],
             'universitesi' => 'Kirklareli',
             'role_id' => 4,
             'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
