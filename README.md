@@ -40,23 +40,26 @@
         npm run dev
     </li>        
 </ol>
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://github.com/narkuvatov13/conference-app/blob/main/public/conferance_images/conferance_home_page.png" width="400"></a></p>
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://github.com/narkuvatov13/conference-app/blob/main/public/conferance_images/conferance_login.png" width="400"></a></p>
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://github.com/narkuvatov13/conference-app/blob/main/public/conferance_images/conferance_register.png" width="400"></a></p>
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://github.com/narkuvatov13/conference-app/blob/main/public/conferance_images/conferance_yonetici_ata.png" width="400"></a></p>
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://github.com/narkuvatov13/conference-app/blob/main/public/conferance_images/conferance_Yonetici_ekle.png" width="400"></a></p>
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://github.com/narkuvatov13/conference-app/blob/main/public/conferance_images/conferance_yonetici_listesi.png" width="400"></a></p><p align="center"><a href="https://laravel.com" target="_blank"><img src="https://github.com/narkuvatov13/conference-app/blob/main/public/conferance_images/conferance_home_page.png" width="400"></a></p>
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://github.com/narkuvatov13/conference-app/blob/main/public/conferance_images/conferans_page_show.png" width="400"></a></p>
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://github.com/narkuvatov13/conference-app/blob/main/public/conferance_images/conferanses_page.png" width="400"></a></p>
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://github.com/narkuvatov13/conference-app/blob/main/public/conferance_images/hakem_conferans_create.png" width="400"></a></p>
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://github.com/narkuvatov13/conference-app/blob/main/public/conferance_images/hekem olusturma.png" width="400"></a></p>
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://github.com/narkuvatov13/conference-app/blob/main/public/conferance_images/Hekem_dahboard.png" width="400"></a></p>
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://github.com/narkuvatov13/conference-app/blob/main/public/conferance_images/iletisim_page.png" width="400"></a></p>
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://github.com/narkuvatov13/conference-app/blob/main/public/conferance_images/konferans_listesi.png" width="400"></a></p>
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://github.com/narkuvatov13/conference-app/blob/main/public/conferance_images/yazar_dashborad.png" width="400"></a></p>
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://github.com/narkuvatov13/conference-app/blob/main/public/conferance_images/yonetici_conferans_duzenle.png" width="400"></a></p>
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://github.com/narkuvatov13/conference-app/blob/main/public/conferance_images/yonetici_dashborad.png" width="400"></a></p>
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://github.com/narkuvatov13/conference-app/blob/main/public/conferance_images/yonetici_konferansi_pasif_aktif.png" width="400"></a></p>
+
+<h1>Project Images</h1>
+<img src="https://github.com/narkuvatov13/conference-app/blob/main/public/conferance_images/conferance_home_page.png" width="400">
+<img src="https://github.com/narkuvatov13/conference-app/blob/main/public/conferance_images/conferance_login.png" width="400">
+<img src="https://github.com/narkuvatov13/conference-app/blob/main/public/conferance_images/conferance_register.png" width="400">
+<img src="https://github.com/narkuvatov13/conference-app/blob/main/public/conferance_images/conferance_yonetici_ata.png" width="400">
+<img src="https://github.com/narkuvatov13/conference-app/blob/main/public/conferance_images/conferance_Yonetici_ekle.png" width="400">
+<img src="https://github.com/narkuvatov13/conference-app/blob/main/public/conferance_images/conferance_yonetici_listesi.png" width="400">
+<img src="https://github.com/narkuvatov13/conference-app/blob/main/public/conferance_images/conferance_home_page.png" width="400">
+<img src="https://github.com/narkuvatov13/conference-app/blob/main/public/conferance_images/conferans_page_show.png" width="400">
+<img src="https://github.com/narkuvatov13/conference-app/blob/main/public/conferance_images/conferanses_page.png" width="400">
+<img src="https://github.com/narkuvatov13/conference-app/blob/main/public/conferance_images/hakem_conferans_create.png" width="400">
+<img src="https://github.com/narkuvatov13/conference-app/blob/main/public/conferance_images/hekem olusturma.png" width="400">
+<img src="https://github.com/narkuvatov13/conference-app/blob/main/public/conferance_images/Hekem_dahboard.png" width="400">
+<img src="https://github.com/narkuvatov13/conference-app/blob/main/public/conferance_images/iletisim_page.png" width="400">
+<img src="https://github.com/narkuvatov13/conference-app/blob/main/public/conferance_images/konferans_listesi.png" width="400">
+<img src="https://github.com/narkuvatov13/conference-app/blob/main/public/conferance_images/yazar_dashborad.png" width="400">
+<img src="https://github.com/narkuvatov13/conference-app/blob/main/public/conferance_images/yonetici_conferans_duzenle.png" width="400">
+<img src="https://github.com/narkuvatov13/conference-app/blob/main/public/conferance_images/yonetici_dashborad.png" width="400">
+<img src="https://github.com/narkuvatov13/conference-app/blob/main/public/conferance_images/yonetici_konferansi_pasif_aktif.png" width="400">
 
 
 
