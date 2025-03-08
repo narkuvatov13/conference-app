@@ -48,25 +48,25 @@ I developed the Conference Management System at my university to digitalize acad
 </p>
 
 <h3>User Roles and Permissions</h3>
-<ol>
+<ul>
     <li>✔ Reviewer:
-        <ol>
+        <ul>
             <li>Can assign administrators to conferences.</li>
             <li>Can create new administrators and list existing ones.</li>
-        </ol>
+        </ul>
     <li>
-        <ol>✔ Administrator:
+        <ul>✔ Administrator:
             <li>Can edit the conferences they are assigned to.</li>
             <li>Can activate or deactivate conferences.</li>
             <li>Can create new reviewers.</li>
-        </ol>
+        </ul>
     </li>
     <li>
-        <ol>Author:
+        <ul>✔ Author:
             <li>Can submit applications to conferences.</li>
-        </ol>
+        </ul>
     </li>
-</ol>
+</ul>
 <p>This project aims to digitalize academic conference organization processes, making them more efficient and structured. It offers flexible and secure access management based on user roles, streamlining the conference workflow. 
 </p>
 
