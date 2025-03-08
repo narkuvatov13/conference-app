@@ -54,15 +54,15 @@ I developed the Conference Management System at my university to digitalize acad
             <li>Can assign administrators to conferences.</li>
             <li>Can create new administrators and list existing ones.</li>
         </ul>
-    <li>
-        <ul>✔ Administrator:
+    <li>✔ Administrator:
+        <ul>
             <li>Can edit the conferences they are assigned to.</li>
             <li>Can activate or deactivate conferences.</li>
             <li>Can create new reviewers.</li>
         </ul>
     </li>
-    <li>
-        <ul>✔ Author:
+    <li>✔ Author:
+        <ul>
             <li>Can submit applications to conferences.</li>
         </ul>
     </li>
