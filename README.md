@@ -41,6 +41,35 @@
     </li>        
 </ol>
 
+<h1>Project About</h1>
+<h1>Conference Management System</h1>
+<p>
+I developed the Conference Management System at my university to digitalize academic conference processes and improve management efficiency. This system includes three different user roles: Reviewer, Administrator, and Author.
+</p>
+
+<h3>User Roles and Permissions</h3>
+<ol>
+    <li>✔ Reviewer:
+        <ol>
+            <li>Can assign administrators to conferences.</li>
+            <li>Can create new administrators and list existing ones.</li>
+        </ol>
+    <li>
+        <ol>✔ Administrator:
+            <li>Can edit the conferences they are assigned to.</li>
+            <li>Can activate or deactivate conferences.</li>
+            <li>Can create new reviewers.</li>
+        </ol>
+    </li>
+    <li>
+        <ol>Author:
+            <li>Can submit applications to conferences.</li>
+        </ol>
+    </li>
+</ol>
+<p>This project aims to digitalize academic conference organization processes, making them more efficient and structured. It offers flexible and secure access management based on user roles, streamlining the conference workflow. 
+</p>
+
 <h1>Project Images</h1>
 <img src="https://github.com/narkuvatov13/conference-app/blob/main/public/conferance_images/conferance_home_page.png" width="400">
 <img src="https://github.com/narkuvatov13/conference-app/blob/main/public/conferance_images/conferance_login.png" width="400">
